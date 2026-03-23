@@ -44,8 +44,8 @@ node --version
 เปิด Terminal แล้วรันคำสั่งนี้ทีละบรรทัด:
 
 ```bash
-npm create vite@latest note-app -- --template vue
-cd note-app
+npm create vite@latest frontend -- --template vue
+cd frontend
 npm install
 npm run dev
 ```
@@ -54,7 +54,7 @@ npm run dev
 > | คำสั่ง | ทำอะไร |
 > |--------|--------|
 > | `npm create vite@latest` | ใช้ Vite สร้างโปรเจกต์ใหม่ |
-> | `note-app` | ชื่อโฟลเดอร์ของโปรเจกต์ |
+> | `frontend` | ชื่อโฟลเดอร์ของโปรเจกต์ |
 > | `--template vue` | เลือกใช้ template ของ Vue.js |
 > | `npm install` | ดาวน์โหลด library ที่โปรเจกต์ต้องใช้ |
 > | `npm run dev` | เปิด dev server เพื่อดูเว็บบนเบราว์เซอร์ |
@@ -91,7 +91,7 @@ npm run dev
 2. เปิดโปรเจกต์ใน VS Code:
 
 ```bash
-code note-app
+code frontend
 ```
 
 3. เปิดไฟล์ `src/App.vue`
@@ -146,7 +146,7 @@ p {
 ตอนนี้เราเห็นผลลัพธ์แล้ว มาทำความเข้าใจว่า "สิ่งที่เราทำ" มันทำงานยังไง
 
 ```
-note-app/
+frontend/
 ├── index.html          ← 🏠 หน้า HTML หลัก (จุดเริ่มต้นของเว็บ)
 ├── package.json        ← 📦 รายการ dependencies และ scripts
 ├── vite.config.js      ← ⚙️ การตั้งค่า Vite

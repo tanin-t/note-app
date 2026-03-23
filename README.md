@@ -26,6 +26,7 @@ note-app/
 │   ├── tutorial.md         ← สารบัญ + แผนที่การเรียนรู้
 │   ├── lesson-1-xxx.md     ← บทเรียนแต่ละบท
 │   └── _lesson-template.md ← Template สำหรับสร้างบทเรียนใหม่
+├── frontend/               ← 🟢 Vue.js Frontend (สร้างในบทที่ 1)
 ├── backend/                ← 🐍 Django REST API (พร้อมใช้งาน)
 │   ├── core/               ← การตั้งค่า Django
 │   ├── notes/              ← App สำหรับจัดการโน้ต
